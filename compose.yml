@@ -1,0 +1,26 @@
+volumes:
+  dvwa:
+
+
+networks:
+  dvwa:
+
+
+services:
+  
+  zap:
+    image: owasp/zap2docker-stable:latest
+  
+  # honeypot:
+  #   image: web-dvwa:latest
+  #   restart: unless-stopped
+
+  arachni:
+    image: ajunneti/arachni-docker:latest
+
+  
+
+
+
+  
+

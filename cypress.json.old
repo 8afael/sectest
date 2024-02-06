@@ -1,0 +1,5 @@
+{
+    "baseUrl": "http://172.17.0.3:9292",
+    "pluginsFile": false,
+    "fixturesFolder": false
+  }
