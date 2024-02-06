@@ -1,7 +1,7 @@
 import subprocess
 
 class owasp:
-    test_zap = terminal_"docker run -v $(pwd):/zap/wrk/:rw owasp/zap2docker-stable zap-full-scan.py -t " +url_test+ " -g gen.conf -r report_dvwa_"+data_hora_f+".html -j"
+    test_zap = "docker run -v $(pwd):/zap/wrk/:rw owasp/zap2docker-stable zap-full-scan.py -t " +url_test+ " -g gen.conf -r report_dvwa_"+data_hora_f+".html -j"
 
     def testar_zap(url):
             session = requests.Session()
