@@ -40,7 +40,7 @@ class Arachni(Data):
             for line in process_report2.stdout:
                 print(line.decode().strip())                
             process_report2.wait()
-            print(f"Testes com Arachni concluídos, relatório gerado na pasta reports")        
+            print(f"Testes com Arachni concluídos, continuando para o próximo teste")        
         else:
                 print(f"Problemas ao acessar a url: {urlTest} ")
     

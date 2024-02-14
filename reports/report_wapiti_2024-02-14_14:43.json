@@ -433,7 +433,7 @@
         "parameter": "",
         "referer": "",
         "module": "csp",
-        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=39282tsahh2dsk7a36rc42bub5; security=low",
+        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=lv6t42o3ed34a55ts51uaak7k6; security=low",
         "curl_command": "curl \"http://172.17.0.2/\"",
         "wstg": [
           "WSTG-CONF-12",
@@ -458,7 +458,7 @@
         "parameter": "",
         "referer": "",
         "module": "http_headers",
-        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=39282tsahh2dsk7a36rc42bub5; security=low",
+        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=lv6t42o3ed34a55ts51uaak7k6; security=low",
         "curl_command": "curl \"http://172.17.0.2/\"",
         "wstg": [
           "OSHP-X-Frame-Options"
@@ -472,7 +472,7 @@
         "parameter": "",
         "referer": "",
         "module": "http_headers",
-        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=39282tsahh2dsk7a36rc42bub5; security=low",
+        "http_request": "GET / HTTP/1.1\nhost: 172.17.0.2\nconnection: keep-alive\nuser-agent: Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0\naccept-language: en-US\naccept-encoding: gzip, deflate, br\naccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\ncookie: PHPSESSID=lv6t42o3ed34a55ts51uaak7k6; security=low",
         "curl_command": "curl \"http://172.17.0.2/\"",
         "wstg": [
           "OSHP-X-Content-Type-Options"
@@ -565,7 +565,7 @@
   },
   "infos": {
     "target": "http://172.17.0.2/",
-    "date": "Wed, 07 Feb 2024 15:45:51 +0000",
+    "date": "Wed, 14 Feb 2024 14:43:38 +0000",
     "version": "Wapiti 3.1.8",
     "scope": "folder",
     "auth": null,

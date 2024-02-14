@@ -20,4 +20,11 @@ class Data:
         caminho = os.getcwd()
         return caminho
     
+    async def clearDocker():
+        limpar = "docker container prune -f"
+        reports = subprocess.Popen(limpar, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        for line in reports.stdout:
+            print(line.decode().strip())
+        reports.wait()
+    
 

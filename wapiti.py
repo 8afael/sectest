@@ -28,7 +28,7 @@ class Wapiti(Data):
                 for line in process_report.stdout:
                     print(line.decode().strip())
                 process_report.wait()
-                print(f"Testes com Wapiti concluídos")
+                print(f"Testes com Wapiti concluídos, continuando para o próximo teste")
 
             else:
                 print(f"Problemas ao acessar a url: {urlTest} ")
