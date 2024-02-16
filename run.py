@@ -12,22 +12,26 @@ from honeypot import Alvo
 from arachni import Arachni
 from wapiti import Wapiti
 from nikto import Nikto
+from modelo import Report
 
 class Sectest:   
     
     async def main():
-        honeypot = Alvo()
-        honeypot.montarContainer()
+        #honeypot = Alvo()
+        #honeypot.montarContainer()
         arachniTest = Arachni(Data.dataHoraAtual, Data.urlTest)
         wapitiTest = Wapiti(Data.dataHoraAtual, Data.urlTest)
         zapTest = Owasp(Data.dataHoraAtual, Data.urlTest)
         niktoTest = Nikto(Data.dataHoraAtual, Data.urlTest)
-        await arachniTest.testar_arachni()
-        await wapitiTest.testar_wapiti()
-        await zapTest.testar_zap()
-        await niktoTest.testar_nikto()
-        await Data.clearDocker()
-        print(f"Todos testes concluídos com sucesso, verificar relatórios na pasta /sectest/reports")
+        genReport = Report()
+        #await arachniTest.testar_arachni()
+        #await wapitiTest.testar_wapiti()
+        #await zapTest.testar_zap()
+        #await niktoTest.testar_nikto()
+        #await Data.clearDocker()
+        #print(f"Todos testes concluídos com sucesso, verificar relatórios na pasta /sectest/reports")
+        print(f"Gerando relatório único.. (aguarde)")
+        await genReport.gerar_relatorio()
         
     asyncio.run(main())
 
