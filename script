@@ -10,7 +10,9 @@ Owasp Zap
 docker pull owasp/zap2docker-stable
 docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t http://192.168.75.130:1335 -g gen.conf -r report_zap.html -j
 
-Metasploiut
+Wapiti
+
+
 
 
 ./msfconsole 

@@ -26,5 +26,5 @@ class Data:
         for line in reports.stdout:
             print(line.decode().strip())
         reports.wait()
-    
+
 
