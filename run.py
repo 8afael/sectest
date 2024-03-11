@@ -30,8 +30,13 @@ class Sectest:
         #await niktoTest.testar_nikto()
         #await Data.clearDocker()
         #print(f"Todos testes concluídos com sucesso, verificar relatórios na pasta /sectest/reports")
-        print(f"Gerando relatório único.. (aguarde)")
-        await genReport.gerar_relatorio()
+        #print(f"Gerando relatório único.. (aguarde)")
+        #await genReport.gerarReport('owaspZap')
+        await genReport.gerarReportOwasp()
+        await genReport.gerarReportNikto()
+        await genReport.gerarReportWapiti()
+        await genReport.gerarReportArachni()
+        await genReport.runReport()
         
     asyncio.run(main())
 
