@@ -37,7 +37,7 @@ class Report:
         spec = ('site', ['alerts'], [['alert']])
         lstJsonOwasp = (glom(owaspJson, spec))
 
-        toolName = f'Owasp\n'
+        #pprint(lstJsonOwasp)
         
         self.lstVulnerabilites = [valor for valor in lstSiteOwasp if valor in lstJsonOwasp[1]]
         
