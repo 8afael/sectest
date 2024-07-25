@@ -1,0 +1,94 @@
+{
+    "vulnerabilites": [
+        {
+            "idTopTen": "A01:2021 – Broken Access Control",
+            "cwes": ["cwe-200", "cwe-201", "cwe-352", "cwe-22", "cwe-23", "cwe-35", "cwe-59", "cwe-219", "cwe-264", "cwe-275", "cwe-276", "cwe-284", "cwe-285", "cwe-352", "cwe-359", "cwe-377", "cwe-402", "cwe-425", "cwe-441", "cwe-497", "cwe-538", "cwe-540", "cwe-548", "cwe-552", "cwe-566", "cwe-601", "cwe-639", "cwe-651", "cwe-668", "cwe-706", "cwe-862", "cwe-863", "cwe-913", "cwe-922", "cwe-1275"],    
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": ["10054-1", "10009", "10036", "90027"],
+            "description": "Broken Access Control"
+        }, 
+        {
+            "idTopTen": "A02:2021 – Cryptographic Failures",
+            "cwes": ["cwe-259", "cwe-327", "cwe-331", "cwe-261", "cwe-296", "cwe-310", "cwe-319", "cwe-321", "cwe-322", "cwe-323", "cwe-324", "cwe-325", "cwe-326", "cwe-327", "cwe-328", "cwe-329", "cwe-330", "cwe-331", "cwe-335", "cwe-336", "cwe-337", "cwe-338", "cwe-340", "cwe-347", "cwe-523", "cwe-720", "cwe-757", "cwe-759", "cwe-760", "cwe-780", "cwe-818", "cwe-916"],    
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "",
+            "description": "Cryptographic Failures"
+        },
+        {
+            "idTopTen": "A03:2021 - Injection",
+            "cwes": ["cwe-89", "cwe-78", "cwe-94", "cwe-434", "cwe-73", "cwe-20", "cwe-74", "cwe-75", "cwe-77", "cwe-79", "cwe-80", "cwe-83", "cwe-87", "cwe-88", "cwe-89", "cwe-90", "cwe-91", "cwe-93", "cwe-95", "cwe-96", "cwe-97", "cwe-98", "cwe-99", "cwe-100", "cwe-113", "cwe-116", "cwe-138", "cwe-184", "cwe-470", "cwe-471", "cwe-564", "cwe-610", "cwe-643", "cwe-644", "cwe-652", "cwe-917"],   
+            "arachniId": "",
+            "niktoId": ["999990", "400001", "400000", "011799"],
+            "wapitiId": "",
+            "owaspIds": ["10051"],
+            "description": "SQL Injection"
+        },
+        {
+            "idTopTen": "A04:2021 – Insecure Design",
+            "cwes": ["cwe-209", "cwe-256", "cwe-501", "cwe-522", "cwe-73", "cwe-183", "cwe-209", "cwe-213", "cwe-235", "cwe-256", "cwe-257", "cwe-266", "cwe-269", "cwe-280", "cwe-311", "cwe-312", "cwe-313", "cwe-316", "cwe-419", "cwe-430", "cwe-434", "cwe-444", "cwe-451", "cwe-472", "cwe-501", "cwe-522", "cwe-525", "cwe-539", "cwe-579", "cwe-598", "cwe-602", "cwe-642", "cwe-646", "cwe-650", "cwe-653", "cwe-656", "cwe-657", "cwe-799", "cwe-807", "cwe-840", "cwe-841", "cwe-927", "cwe-1021", "cwe-1173"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": ["10020-1", "10106", ""],
+            "description": "Insecure Design"
+        },
+        {
+            "idTopTen": "A05:2021 – Security Misconfiguration",
+            "cwes": ["cwe-16", "cwe-611", "cwe-2", "cwe-11", "cwe-13", "cwe-15", "cwe-16", "cwe-260", "cwe-315", "cwe-520", "cwe-526", "cwe-537", "cwe-541", "cwe-547", "cwe-611", "cwe-614", "cwe-756", "cwe-776", "cwe-942", "cwe-1004", "cwe-1032", "cwe-1174"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": ["10010"],
+            "description": "Security Misconfiguration"
+        },
+        {
+            "idTopTen": "A06:2021 – Vulnerable and Outdated Components",
+            "cwes": ["cwe-1104", "cwe-937", "cwe-1035"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "7",
+            "description": "Vulnerable and Outdated Components"
+        },
+        {
+            "idTopTen": "A07:2021 – Identification and Authentication Failures",
+            "cwes": ["cwe-297", "cwe-287", "cwe-384", "cwe-255", "cwe-259", "cwe-287", "cwe-288", "cwe-290", "cwe-294", "cwe-295", "cwe-297", "cwe-300", "cwe-302", "cwe-304", "cwe-306", "cwe-307", "cwe-346", "cwe-384", "cwe-521", "cwe-613", "cwe-620", "cwe-640", "cwe-798", "cwe-940", "cwe-1216"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "7",
+            "description": "Identification and Authentication Failures"
+        },
+        {
+            "idTopTen": "A08:2021 – Software and Data Integrity Failures",
+            "cwes": ["cwe-829", "cwe-494", "cwe-502", "cwe-345", "cwe-353", "cwe-426", "cwe-494", "cwe-502", "cwe-565", "cwe-784", "cwe-830", "cwe-915"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "7",
+            "description": "Software and Data Integrity Failures"
+        },
+        {
+            "idTopTen": "A09:2021 – Security Logging and Monitoring Failures",
+            "cwes": ["cwe-778", "cwe-117", "cwe-223", "cwe-532"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "7",
+            "description": "Security Logging and Monitoring Failures"
+        },
+        {
+            "idTopTen": "A10:2021 – Server-Side Request Forgery (SSRF)",
+            "cwes": ["cwe-918"],
+            "arachniId": "",
+            "niktoId": "",
+            "wapitiId": "",
+            "owaspIds": "7",
+            "description": "Server-Side Request Forgery (SSRF)"
+        }
+    ]
+}
